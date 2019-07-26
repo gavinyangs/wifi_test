@@ -1,0 +1,1 @@
+../../../../IMSApiClient/IMSApiClient/IMSApiClient.framework/Headers/IMSResponse.h

@@ -1,0 +1,1 @@
+../../../../IMSBoneKit/IMSBoneKit/IMSPackage.framework/Headers/IMSPackage.h

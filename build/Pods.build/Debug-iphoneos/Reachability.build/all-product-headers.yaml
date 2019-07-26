@@ -1,0 +1,258 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/CocoaAsyncSocket",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AsyncSocket.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncSocket.h"
+        },
+        {
+          'type': 'file',
+          'name': "AsyncUdpSocket.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncUdpSocket.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaAsyncSocket.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/CocoaAsyncSocket/Source/CocoaAsyncSocket.h"
+        },
+        {
+          'type': 'file',
+          'name': "GCDAsyncSocket.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.h"
+        },
+        {
+          'type': 'file',
+          'name': "GCDAsyncUdpSocket.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/IMSGlueCode",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IMSAlicloudPushIoTGlue.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSGlueCode/IMSAlicloudPushIoTGlue.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSMobileChannelGlue.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSGlueCode/IMSMobileChannelGlue.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSThingCapabilityGlue.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSGlueCode/IMSThingCapabilityGlue.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/IMSInitCode",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IMSAlicloudPushIoTLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSAlicloudPushIoTLaunch.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSApiClientLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSApiClientLaunch.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSAuthenticationLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSAuthenticationLaunch.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSBoneKitLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSBoneKitLaunch.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSMobileChannelLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSMobileChannelLaunch.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSOpenAccount.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSOpenAccount.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSThingCapabilityLaunch.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSInitCode/IMSThingCapabilityLaunch.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/IMSLaunchKit",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IMSLaunchKit.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSLaunchKit/IMSLaunchKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSLauncher.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSLaunchKit/IMSLauncher.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSLauncherEnv.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSLaunchKit/IMSLauncherEnv.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSLauncherProtocol.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSLaunchKit/IMSLauncherProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "IMSSDKConfig.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/LocalPods/IMSLaunchKit/IMSSDKConfig.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/MJRefresh",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MJRefresh.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoGifFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoNormalFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoStateFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackGifFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackNormalFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackStateFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshComponent.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshConst.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/MJRefreshConst.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshFooter.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshGifHeader.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshHeader.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshNormalHeader.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshStateHeader.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+MJRefresh.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/NSBundle+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJExtension.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/UIScrollView+MJExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJRefresh.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+MJExtension.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/MJRefresh/MJRefresh/UIView+MJExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/Reachability",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/Reachability/Reachability.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gavin/Working/wifi_test/build/Debug-iphoneos/ZipArchive",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ZipArchive.h",
+          'external-contents': "/Users/Gavin/Working/wifi_test/Pods/ZipArchive/ZipArchive.h"
+        }
+      ]
+    }
+  ]
+}

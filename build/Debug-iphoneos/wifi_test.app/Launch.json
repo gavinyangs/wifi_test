@@ -1,0 +1,136 @@
+[
+ {
+  "name": "API 通道",
+  "opt": {
+   "china": {
+    "hosts": {
+     "test": "api-performance.aliplus.com",
+     "pre": "api.link.aliyun.com",
+     "release": "api.link.aliyun.com"
+    },
+    "language": "zh-CN"
+   },
+   "singapore": {
+    "hosts": {
+     "pre": "api-iot.ap-southeast-1.aliyuncs.com",
+     "release": "api-iot.ap-southeast-1.aliyuncs.com"
+    },
+    "language": "en-US"
+   }
+  },
+  "version": "1.3.0",
+  "desc": "API 通道是用于调用目前平台所开放的相关接口服务，SDK 集成了验签和身份认证相关功能。",
+  "classNames": [
+   "IMSApiClientLaunch"
+  ]
+ },
+ {
+  "name": "账号",
+  "opt": {
+   "china": {
+    "host": "",
+    "language": "zh-CN"
+   },
+   "singapore": {
+    "host": "sgp-sdk.openaccount.aliyun.com",
+    "language": "en-US"
+   }
+  },
+  "version": "1.2.0",
+  "desc": "帐号 SDK 提供注册，登录，登出，获取账号，会话管理，人机校验，登录UI定制等功能。",
+  "classNames": [
+   "IMSAuthenticationLaunch"
+  ]
+ },
+ {
+  "name": "长连接通道",
+  "opt": {
+   "china": {},
+   "singapore": {
+    "autoSelectChannelHost": true
+   }
+  },
+  "submodules": [
+   {
+    "desc": "长连接账号绑定",
+    "opt": {},
+    "dependency": [],
+    "name": "IMSMobileChannelAccountBind",
+    "classNames": [
+     "IMSMobileChannelGlue"
+    ]
+   }
+  ],
+  "version": "1.6.0",
+  "desc": "长连接通道 SDK，提供 IoT 业务协议封装的云端数据下行能力；为 app 提供订阅、发布消息的能力, 和支持请求响应模型。",
+  "classNames": [
+   "IMSMobileChannelLaunch"
+  ]
+ },
+ {
+  "name": "添加设备",
+  "opt": {},
+  "version": "1.6.0",
+  "desc": "提供了把 WiFi 设备配置上家庭路由器以及局域网内已联网设备的发现能力，具体方案包括一键广播配网、手机热点配网、智能路由器配网以及设备间相互配网等。",
+  "classNames": []
+ },
+ {
+  "name": "设备控制",
+  "opt": {},
+  "submodules": [
+   {
+    "desc": "停止设备控制本地发现",
+    "opt": {},
+    "dependency": [],
+    "name": "IMSThingCapabilityClear",
+    "classNames": [
+     "IMSThingCapabilityGlue"
+    ]
+   }
+  ],
+  "version": "1.0.1",
+  "desc": "设备模型 SDK 提供了 App 端的设备模型（属性，事件，服务），用来开发设备界面，实现手机对设备的查看和控制。",
+  "classNames": [
+   "IMSThingCapabilityLaunch"
+  ]
+ },
+ {
+  "name": "BoneMobile 容器",
+  "opt": {
+   "china": {
+    "language": "zh-CN"
+   },
+   "singapore": {
+    "language": "en-US"
+   }
+  },
+  "version": "1.2.7",
+  "desc": "BoneMobile 容器提供加载插件的功能。如果您需要开发或者使用插件，则需要在 App 中集成该 SDK。",
+  "classNames": [
+   "IMSBoneKitLaunch"
+  ]
+ },
+ {
+  "name": "消息推送",
+  "opt": {},
+  "submodules": [
+   {
+    "desc": "推送绑定帐号",
+    "opt": {
+     "bindDeviceWithAccount": true
+    },
+    "dependency": "",
+    "name": "IMSAlicloudPushIoTBindAccount",
+    "classNames": [
+     "IMSAlicloudPushIoTGlue"
+    ]
+   }
+  ],
+  "version": "1.0.0",
+  "desc": "消息推送是基于大数据技术的移动云服务。帮助 App 快速集成移动推送的功能。让开发者最有效地与用户保持连接，从而提高用户活跃度、提高应用的留存率。",
+  "icon": "https://cdn.nlark.com/lark/0/2018/png/37158/1542199386444-assets/web-upload/9555815f-9e45-4a19-87fd-e67cc1c4bf56.png",
+  "classNames": [
+   "IMSAlicloudPushIoTLaunch"
+  ]
+ }
+]

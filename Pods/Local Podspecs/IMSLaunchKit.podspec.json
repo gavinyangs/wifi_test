@@ -1,0 +1,29 @@
+{
+  "name": "IMSLaunchKit",
+  "version": "1.0.0",
+  "summary": "A short description of IMSLaunchKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://gitlab.alibaba-inc.com/iot-aep-ios/IMSLaunchKit",
+  "license": {
+    "type": "Copyright",
+    "text": "Alibaba-inc copyright"
+  },
+  "authors": {
+    "app-generate": "app-generate@alibaba-inc.com"
+  },
+  "source": {
+    "git": "http://gitlab.alibaba-inc.com/iot-aep-ios/IMSLaunchKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "IMSLaunchKit/*.{h,m}"
+  ],
+  "public_header_files": "IMSLaunchKit/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

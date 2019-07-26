@@ -1,0 +1,73 @@
+{
+  "name": "IMSGlueCode",
+  "version": "1.0.0",
+  "summary": "A short description of IMSGlueCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://gitlab.alibaba-inc.com/iot-aep-ios/IMSGlueCode",
+  "license": {
+    "type": "Copyright",
+    "text": "Alibaba-inc copyright"
+  },
+  "authors": {
+    "app-generate": "app-generate@alibaba-inc.com"
+  },
+  "source": {
+    "git": "http://gitlab.alibaba-inc.com/iot-aep-ios/IMSGlueCode.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "IMSGlueCode/*.{h,m}"
+  ],
+  "public_header_files": "IMSGlueCode/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "IMSLaunchKit": [
+
+    ],
+    "IMSApiClient": [
+
+    ],
+    "IMSAuthentication": [
+
+    ],
+    "AlicloudALBBOpenAccount": [
+
+    ],
+    "IMSMobileChannel": [
+
+    ],
+    "IMSDeviceCenter": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "Reachability": [
+
+    ],
+    "IMSThingCapability": [
+
+    ],
+    "AKReactNative": [
+
+    ],
+    "IMSBoneKit": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ZipArchive": [
+
+    ],
+    "AlicloudPushIoT": [
+
+    ]
+  }
+}

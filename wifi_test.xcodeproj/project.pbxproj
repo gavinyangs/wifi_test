@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860E3ED122E87BF300D137E0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E3ED022E87BF300D137E0 /* LoginViewController.m */; };
+		8646632722E707FD006668B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646632622E707FD006668B6 /* AppDelegate.m */; };
+		8646632A22E707FD006668B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646632922E707FD006668B6 /* ViewController.m */; };
+		8646632D22E707FD006668B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8646632B22E707FD006668B6 /* Main.storyboard */; };
+		8646633022E707FD006668B6 /* wifi_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8646632E22E707FD006668B6 /* wifi_test.xcdatamodeld */; };
+		8646633222E707FE006668B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8646633122E707FE006668B6 /* Assets.xcassets */; };
+		8646633522E707FE006668B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8646633322E707FE006668B6 /* LaunchScreen.storyboard */; };
+		8646633822E707FE006668B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646633722E707FE006668B6 /* main.m */; };
+		8646634222E707FF006668B6 /* wifi_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646634122E707FF006668B6 /* wifi_testTests.m */; };
+		8646634D22E707FF006668B6 /* wifi_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646634C22E707FF006668B6 /* wifi_testUITests.m */; };
+		8646639222E70816006668B6 /* Launch.json in Resources */ = {isa = PBXBuildFile; fileRef = 8646637F22E70816006668B6 /* Launch.json */; };
+		8646639422E7088C006668B6 /* yw_1222_07e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8646639322E7088B006668B6 /* yw_1222_07e8.jpg */; };
+		864663BC22E70A78006668B6 /* ALBBOpenAccountLoginLogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639622E70A75006668B6 /* ALBBOpenAccountLoginLogTableViewCell.xib */; };
+		864663BD22E70A78006668B6 /* ALBBOpenAccountOneStepRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639722E70A75006668B6 /* ALBBOpenAccountOneStepRegisterVC.xib */; };
+		864663BE22E70A78006668B6 /* ALBBOpenAccountUpdateMobileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639822E70A75006668B6 /* ALBBOpenAccountUpdateMobileViewController.xib */; };
+		864663BF22E70A78006668B6 /* ALBBOpenAccountRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639922E70A75006668B6 /* ALBBOpenAccountRegisterViewController.xib */; };
+		864663C022E70A78006668B6 /* ALBBOpenAccountFindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639A22E70A75006668B6 /* ALBBOpenAccountFindPwdViewController.xib */; };
+		864663C122E70A78006668B6 /* ALBBOpenAccountSetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639B22E70A75006668B6 /* ALBBOpenAccountSetPwdViewController.xib */; };
+		864663C222E70A78006668B6 /* ALBBOpenAccountLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639C22E70A75006668B6 /* ALBBOpenAccountLoginViewController.xib */; };
+		864663C322E70A78006668B6 /* ALBBOpenAccountEmailRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639D22E70A75006668B6 /* ALBBOpenAccountEmailRegisterViewController.xib */; };
+		864663C422E70A78006668B6 /* ALBBOpenAccountCountryCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639E22E70A75006668B6 /* ALBBOpenAccountCountryCodeViewController.xib */; };
+		864663C522E70A78006668B6 /* ALBBOpenAccountLoginNoPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8646639F22E70A75006668B6 /* ALBBOpenAccountLoginNoPwdViewController.xib */; };
+		864663C622E70A78006668B6 /* ALBBOpenAccountEmailFindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864663A022E70A75006668B6 /* ALBBOpenAccountEmailFindPwdViewController.xib */; };
+		864663C722E70A78006668B6 /* ALBBOpenAccountLoginHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864663A122E70A75006668B6 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */; };
+		864663C822E70A78006668B6 /* ALBBOpenAccountPreFindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864663A222E70A75006668B6 /* ALBBOpenAccountPreFindPwdViewController.xib */; };
+		864663C922E70A78006668B6 /* ALBBOpenAccountResetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864663A322E70A75006668B6 /* ALBBOpenAccountResetPwdViewController.xib */; };
+		864663CA22E70A78006668B6 /* ALBBOpenAccountLoginLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864663A422E70A75006668B6 /* ALBBOpenAccountLoginLogViewController.xib */; };
+		864663CB22E70A78006668B6 /* ALBBOpenAccountUIFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864663A522E70A75006668B6 /* ALBBOpenAccountUIFont.ttf */; };
+		864663CC22E70A78006668B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864663A722E70A75006668B6 /* Localizable.strings */; };
+		864663CD22E70A78006668B6 /* button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663A922E70A75006668B6 /* button_normal@2x.png */; };
+		864663CE22E70A78006668B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864663AB22E70A76006668B6 /* Localizable.strings */; };
+		864663CF22E70A78006668B6 /* button_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663AD22E70A76006668B6 /* button_disable@2x.png */; };
+		864663D022E70A78006668B6 /* weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663AE22E70A76006668B6 /* weibo@2x.png */; };
+		864663D122E70A78006668B6 /* weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663AF22E70A76006668B6 /* weixin@2x.png */; };
+		864663D222E70A78006668B6 /* taobao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663B022E70A76006668B6 /* taobao@2x.png */; };
+		864663D322E70A78006668B6 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663B122E70A76006668B6 /* back@2x.png */; };
+		864663D422E70A78006668B6 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663B222E70A76006668B6 /* back@3x.png */; };
+		864663D522E70A78006668B6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663B322E70A77006668B6 /* back.png */; };
+		864663D622E70A78006668B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864663B522E70A77006668B6 /* Localizable.strings */; };
+		864663D722E70A78006668B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864663B822E70A77006668B6 /* Localizable.strings */; };
+		864663D822E70A78006668B6 /* qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663BA22E70A77006668B6 /* qq@2x.png */; };
+		864663D922E70A78006668B6 /* button_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864663BB22E70A77006668B6 /* button_click@2x.png */; };
+		ED414FC87312AFAD6CCE9FBF /* libPods-wifi_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5950D61EB7F5B43E6D65CE4E /* libPods-wifi_test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8646633E22E707FF006668B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8646631A22E707FD006668B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8646632122E707FD006668B6;
+			remoteInfo = wifi_test;
+		};
+		8646634922E707FF006668B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8646631A22E707FD006668B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8646632122E707FD006668B6;
+			remoteInfo = wifi_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5950D61EB7F5B43E6D65CE4E /* libPods-wifi_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wifi_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860E3ECF22E87BF300D137E0 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		860E3ED022E87BF300D137E0 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8646632222E707FD006668B6 /* wifi_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifi_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8646632522E707FD006668B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8646632622E707FD006668B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8646632822E707FD006668B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8646632922E707FD006668B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8646632C22E707FD006668B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8646632F22E707FD006668B6 /* wifi_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wifi_test.xcdatamodel; sourceTree = "<group>"; };
+		8646633122E707FE006668B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8646633422E707FE006668B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8646633622E707FE006668B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8646633722E707FE006668B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8646633D22E707FF006668B6 /* wifi_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifi_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8646634122E707FF006668B6 /* wifi_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wifi_testTests.m; sourceTree = "<group>"; };
+		8646634322E707FF006668B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8646634822E707FF006668B6 /* wifi_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifi_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8646634C22E707FF006668B6 /* wifi_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wifi_testUITests.m; sourceTree = "<group>"; };
+		8646634E22E707FF006668B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8646637F22E70816006668B6 /* Launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Launch.json; sourceTree = "<group>"; };
+		8646639322E7088B006668B6 /* yw_1222_07e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222_07e8.jpg; sourceTree = "<group>"; };
+		8646639622E70A75006668B6 /* ALBBOpenAccountLoginLogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountLoginLogTableViewCell.xib; sourceTree = "<group>"; };
+		8646639722E70A75006668B6 /* ALBBOpenAccountOneStepRegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountOneStepRegisterVC.xib; sourceTree = "<group>"; };
+		8646639822E70A75006668B6 /* ALBBOpenAccountUpdateMobileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountUpdateMobileViewController.xib; sourceTree = "<group>"; };
+		8646639922E70A75006668B6 /* ALBBOpenAccountRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountRegisterViewController.xib; sourceTree = "<group>"; };
+		8646639A22E70A75006668B6 /* ALBBOpenAccountFindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountFindPwdViewController.xib; sourceTree = "<group>"; };
+		8646639B22E70A75006668B6 /* ALBBOpenAccountSetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountSetPwdViewController.xib; sourceTree = "<group>"; };
+		8646639C22E70A75006668B6 /* ALBBOpenAccountLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountLoginViewController.xib; sourceTree = "<group>"; };
+		8646639D22E70A75006668B6 /* ALBBOpenAccountEmailRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountEmailRegisterViewController.xib; sourceTree = "<group>"; };
+		8646639E22E70A75006668B6 /* ALBBOpenAccountCountryCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountCountryCodeViewController.xib; sourceTree = "<group>"; };
+		8646639F22E70A75006668B6 /* ALBBOpenAccountLoginNoPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountLoginNoPwdViewController.xib; sourceTree = "<group>"; };
+		864663A022E70A75006668B6 /* ALBBOpenAccountEmailFindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountEmailFindPwdViewController.xib; sourceTree = "<group>"; };
+		864663A122E70A75006668B6 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountLoginHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		864663A222E70A75006668B6 /* ALBBOpenAccountPreFindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountPreFindPwdViewController.xib; sourceTree = "<group>"; };
+		864663A322E70A75006668B6 /* ALBBOpenAccountResetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountResetPwdViewController.xib; sourceTree = "<group>"; };
+		864663A422E70A75006668B6 /* ALBBOpenAccountLoginLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBBOpenAccountLoginLogViewController.xib; sourceTree = "<group>"; };
+		864663A522E70A75006668B6 /* ALBBOpenAccountUIFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ALBBOpenAccountUIFont.ttf; path = Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/ALBBOpenAccountUIFont.ttf; sourceTree = "<group>"; };
+		864663A822E70A75006668B6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = Localizable.strings; sourceTree = "<group>"; };
+		864663A922E70A75006668B6 /* button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_normal@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/button_normal@2x.png"; sourceTree = "<group>"; };
+		864663AC22E70A76006668B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		864663AD22E70A76006668B6 /* button_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_disable@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/button_disable@2x.png"; sourceTree = "<group>"; };
+		864663AE22E70A76006668B6 /* weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weibo@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/weibo@2x.png"; sourceTree = "<group>"; };
+		864663AF22E70A76006668B6 /* weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weixin@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/weixin@2x.png"; sourceTree = "<group>"; };
+		864663B022E70A76006668B6 /* taobao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taobao@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/taobao@2x.png"; sourceTree = "<group>"; };
+		864663B122E70A76006668B6 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/back@2x.png"; sourceTree = "<group>"; };
+		864663B222E70A76006668B6 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@3x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/back@3x.png"; sourceTree = "<group>"; };
+		864663B322E70A77006668B6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/back.png; sourceTree = "<group>"; };
+		864663B622E70A77006668B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Localizable.strings; sourceTree = "<group>"; };
+		864663B922E70A77006668B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		864663BA22E70A77006668B6 /* qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qq@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/qq@2x.png"; sourceTree = "<group>"; };
+		864663BB22E70A77006668B6 /* button_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_click@2x.png"; path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/button_click@2x.png"; sourceTree = "<group>"; };
+		BA99C298BCCDA87BFA8E9170 /* Pods-wifi_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifi_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-wifi_test/Pods-wifi_test.release.xcconfig"; sourceTree = "<group>"; };
+		DD91DA13A6FF377883D5198E /* Pods-wifi_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifi_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wifi_test/Pods-wifi_test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8646631F22E707FD006668B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED414FC87312AFAD6CCE9FBF /* libPods-wifi_test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646633A22E707FF006668B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646634522E707FF006668B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A2FA734298B737C266930B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5950D61EB7F5B43E6D65CE4E /* libPods-wifi_test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8646631922E707FD006668B6 = {
+			isa = PBXGroup;
+			children = (
+				864663A522E70A75006668B6 /* ALBBOpenAccountUIFont.ttf */,
+				864663B322E70A77006668B6 /* back.png */,
+				864663B122E70A76006668B6 /* back@2x.png */,
+				864663B222E70A76006668B6 /* back@3x.png */,
+				864663B422E70A77006668B6 /* Base.lproj */,
+				864663BB22E70A77006668B6 /* button_click@2x.png */,
+				864663AD22E70A76006668B6 /* button_disable@2x.png */,
+				864663A922E70A75006668B6 /* button_normal@2x.png */,
+				864663AA22E70A76006668B6 /* en.lproj */,
+				864663BA22E70A77006668B6 /* qq@2x.png */,
+				864663B022E70A76006668B6 /* taobao@2x.png */,
+				864663AE22E70A76006668B6 /* weibo@2x.png */,
+				864663AF22E70A76006668B6 /* weixin@2x.png */,
+				8646639522E70A75006668B6 /* xib */,
+				864663B722E70A77006668B6 /* zh-Hans.lproj */,
+				864663A622E70A75006668B6 /* zh-Hant.lproj */,
+				8646639322E7088B006668B6 /* yw_1222_07e8.jpg */,
+				8646637F22E70816006668B6 /* Launch.json */,
+				8646632422E707FD006668B6 /* wifi_test */,
+				8646634022E707FF006668B6 /* wifi_testTests */,
+				8646634B22E707FF006668B6 /* wifi_testUITests */,
+				8646632322E707FD006668B6 /* Products */,
+				D2E87B69BF50A24FAEED571A /* Pods */,
+				32A2FA734298B737C266930B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8646632322E707FD006668B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8646632222E707FD006668B6 /* wifi_test.app */,
+				8646633D22E707FF006668B6 /* wifi_testTests.xctest */,
+				8646634822E707FF006668B6 /* wifi_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8646632422E707FD006668B6 /* wifi_test */ = {
+			isa = PBXGroup;
+			children = (
+				8646632522E707FD006668B6 /* AppDelegate.h */,
+				8646632622E707FD006668B6 /* AppDelegate.m */,
+				8646632822E707FD006668B6 /* ViewController.h */,
+				8646632922E707FD006668B6 /* ViewController.m */,
+				8646632B22E707FD006668B6 /* Main.storyboard */,
+				8646633122E707FE006668B6 /* Assets.xcassets */,
+				8646633322E707FE006668B6 /* LaunchScreen.storyboard */,
+				8646633622E707FE006668B6 /* Info.plist */,
+				8646633722E707FE006668B6 /* main.m */,
+				8646632E22E707FD006668B6 /* wifi_test.xcdatamodeld */,
+				860E3ECF22E87BF300D137E0 /* LoginViewController.h */,
+				860E3ED022E87BF300D137E0 /* LoginViewController.m */,
+			);
+			path = wifi_test;
+			sourceTree = "<group>";
+		};
+		8646634022E707FF006668B6 /* wifi_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				8646634122E707FF006668B6 /* wifi_testTests.m */,
+				8646634322E707FF006668B6 /* Info.plist */,
+			);
+			path = wifi_testTests;
+			sourceTree = "<group>";
+		};
+		8646634B22E707FF006668B6 /* wifi_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8646634C22E707FF006668B6 /* wifi_testUITests.m */,
+				8646634E22E707FF006668B6 /* Info.plist */,
+			);
+			path = wifi_testUITests;
+			sourceTree = "<group>";
+		};
+		8646639522E70A75006668B6 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				8646639622E70A75006668B6 /* ALBBOpenAccountLoginLogTableViewCell.xib */,
+				8646639722E70A75006668B6 /* ALBBOpenAccountOneStepRegisterVC.xib */,
+				8646639822E70A75006668B6 /* ALBBOpenAccountUpdateMobileViewController.xib */,
+				8646639922E70A75006668B6 /* ALBBOpenAccountRegisterViewController.xib */,
+				8646639A22E70A75006668B6 /* ALBBOpenAccountFindPwdViewController.xib */,
+				8646639B22E70A75006668B6 /* ALBBOpenAccountSetPwdViewController.xib */,
+				8646639C22E70A75006668B6 /* ALBBOpenAccountLoginViewController.xib */,
+				8646639D22E70A75006668B6 /* ALBBOpenAccountEmailRegisterViewController.xib */,
+				8646639E22E70A75006668B6 /* ALBBOpenAccountCountryCodeViewController.xib */,
+				8646639F22E70A75006668B6 /* ALBBOpenAccountLoginNoPwdViewController.xib */,
+				864663A022E70A75006668B6 /* ALBBOpenAccountEmailFindPwdViewController.xib */,
+				864663A122E70A75006668B6 /* ALBBOpenAccountLoginHistoryTableViewCell.xib */,
+				864663A222E70A75006668B6 /* ALBBOpenAccountPreFindPwdViewController.xib */,
+				864663A322E70A75006668B6 /* ALBBOpenAccountResetPwdViewController.xib */,
+				864663A422E70A75006668B6 /* ALBBOpenAccountLoginLogViewController.xib */,
+			);
+			name = xib;
+			path = Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/xib;
+			sourceTree = "<group>";
+		};
+		864663A622E70A75006668B6 /* zh-Hant.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				864663A722E70A75006668B6 /* Localizable.strings */,
+			);
+			name = "zh-Hant.lproj";
+			path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/zh-Hant.lproj";
+			sourceTree = "<group>";
+		};
+		864663AA22E70A76006668B6 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				864663AB22E70A76006668B6 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			path = Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/en.lproj;
+			sourceTree = "<group>";
+		};
+		864663B422E70A77006668B6 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				864663B522E70A77006668B6 /* Localizable.strings */,
+			);
+			name = Base.lproj;
+			path = Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/Base.lproj;
+			sourceTree = "<group>";
+		};
+		864663B722E70A77006668B6 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				864663B822E70A77006668B6 /* Localizable.strings */,
+			);
+			name = "zh-Hans.lproj";
+			path = "Pods/AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/ALBBOpenAccount.bundle/zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		D2E87B69BF50A24FAEED571A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD91DA13A6FF377883D5198E /* Pods-wifi_test.debug.xcconfig */,
+				BA99C298BCCDA87BFA8E9170 /* Pods-wifi_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8646632122E707FD006668B6 /* wifi_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8646635122E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_test" */;
+			buildPhases = (
+				0D1B39747135F09227B188EA /* [CP] Check Pods Manifest.lock */,
+				8646631E22E707FD006668B6 /* Sources */,
+				8646631F22E707FD006668B6 /* Frameworks */,
+				8646632022E707FD006668B6 /* Resources */,
+				F3D9D89C3913C82C9F91154F /* [CP] Embed Pods Frameworks */,
+				119D65CAE262ED12AB1EAF30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wifi_test;
+			productName = wifi_test;
+			productReference = 8646632222E707FD006668B6 /* wifi_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8646633C22E707FF006668B6 /* wifi_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8646635422E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_testTests" */;
+			buildPhases = (
+				8646633922E707FF006668B6 /* Sources */,
+				8646633A22E707FF006668B6 /* Frameworks */,
+				8646633B22E707FF006668B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8646633F22E707FF006668B6 /* PBXTargetDependency */,
+			);
+			name = wifi_testTests;
+			productName = wifi_testTests;
+			productReference = 8646633D22E707FF006668B6 /* wifi_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8646634722E707FF006668B6 /* wifi_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8646635722E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_testUITests" */;
+			buildPhases = (
+				8646634422E707FF006668B6 /* Sources */,
+				8646634522E707FF006668B6 /* Frameworks */,
+				8646634622E707FF006668B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8646634A22E707FF006668B6 /* PBXTargetDependency */,
+			);
+			name = wifi_testUITests;
+			productName = wifi_testUITests;
+			productReference = 8646634822E707FF006668B6 /* wifi_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8646631A22E707FD006668B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qevdo_Company;
+				TargetAttributes = {
+					8646632122E707FD006668B6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8646633C22E707FF006668B6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8646632122E707FD006668B6;
+					};
+					8646634722E707FF006668B6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8646632122E707FD006668B6;
+					};
+				};
+			};
+			buildConfigurationList = 8646631D22E707FD006668B6 /* Build configuration list for PBXProject "wifi_test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+			);
+			mainGroup = 8646631922E707FD006668B6;
+			productRefGroup = 8646632322E707FD006668B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8646632122E707FD006668B6 /* wifi_test */,
+				8646633C22E707FF006668B6 /* wifi_testTests */,
+				8646634722E707FF006668B6 /* wifi_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8646632022E707FD006668B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864663D922E70A78006668B6 /* button_click@2x.png in Resources */,
+				864663C722E70A78006668B6 /* ALBBOpenAccountLoginHistoryTableViewCell.xib in Resources */,
+				864663C422E70A78006668B6 /* ALBBOpenAccountCountryCodeViewController.xib in Resources */,
+				864663D322E70A78006668B6 /* back@2x.png in Resources */,
+				8646633522E707FE006668B6 /* LaunchScreen.storyboard in Resources */,
+				864663CC22E70A78006668B6 /* Localizable.strings in Resources */,
+				864663C222E70A78006668B6 /* ALBBOpenAccountLoginViewController.xib in Resources */,
+				864663CA22E70A78006668B6 /* ALBBOpenAccountLoginLogViewController.xib in Resources */,
+				864663C322E70A78006668B6 /* ALBBOpenAccountEmailRegisterViewController.xib in Resources */,
+				864663D222E70A78006668B6 /* taobao@2x.png in Resources */,
+				864663C822E70A78006668B6 /* ALBBOpenAccountPreFindPwdViewController.xib in Resources */,
+				864663CD22E70A78006668B6 /* button_normal@2x.png in Resources */,
+				864663C922E70A78006668B6 /* ALBBOpenAccountResetPwdViewController.xib in Resources */,
+				8646639422E7088C006668B6 /* yw_1222_07e8.jpg in Resources */,
+				864663CB22E70A78006668B6 /* ALBBOpenAccountUIFont.ttf in Resources */,
+				864663CF22E70A78006668B6 /* button_disable@2x.png in Resources */,
+				864663C622E70A78006668B6 /* ALBBOpenAccountEmailFindPwdViewController.xib in Resources */,
+				864663D022E70A78006668B6 /* weibo@2x.png in Resources */,
+				864663BF22E70A78006668B6 /* ALBBOpenAccountRegisterViewController.xib in Resources */,
+				864663D522E70A78006668B6 /* back.png in Resources */,
+				864663C522E70A78006668B6 /* ALBBOpenAccountLoginNoPwdViewController.xib in Resources */,
+				864663C022E70A78006668B6 /* ALBBOpenAccountFindPwdViewController.xib in Resources */,
+				8646633222E707FE006668B6 /* Assets.xcassets in Resources */,
+				864663D622E70A78006668B6 /* Localizable.strings in Resources */,
+				864663BD22E70A78006668B6 /* ALBBOpenAccountOneStepRegisterVC.xib in Resources */,
+				8646639222E70816006668B6 /* Launch.json in Resources */,
+				864663D422E70A78006668B6 /* back@3x.png in Resources */,
+				864663BE22E70A78006668B6 /* ALBBOpenAccountUpdateMobileViewController.xib in Resources */,
+				864663D822E70A78006668B6 /* qq@2x.png in Resources */,
+				864663CE22E70A78006668B6 /* Localizable.strings in Resources */,
+				8646632D22E707FD006668B6 /* Main.storyboard in Resources */,
+				864663BC22E70A78006668B6 /* ALBBOpenAccountLoginLogTableViewCell.xib in Resources */,
+				864663C122E70A78006668B6 /* ALBBOpenAccountSetPwdViewController.xib in Resources */,
+				864663D722E70A78006668B6 /* Localizable.strings in Resources */,
+				864663D122E70A78006668B6 /* weixin@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646633B22E707FF006668B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646634622E707FF006668B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1B39747135F09227B188EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		119D65CAE262ED12AB1EAF30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifi_test/Pods-wifi_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D9D89C3913C82C9F91154F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifi_test/Pods-wifi_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8646631E22E707FD006668B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8646632A22E707FD006668B6 /* ViewController.m in Sources */,
+				8646632722E707FD006668B6 /* AppDelegate.m in Sources */,
+				8646633822E707FE006668B6 /* main.m in Sources */,
+				8646633022E707FD006668B6 /* wifi_test.xcdatamodeld in Sources */,
+				860E3ED122E87BF300D137E0 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646633922E707FF006668B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8646634222E707FF006668B6 /* wifi_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8646634422E707FF006668B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8646634D22E707FF006668B6 /* wifi_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8646633F22E707FF006668B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8646632122E707FD006668B6 /* wifi_test */;
+			targetProxy = 8646633E22E707FF006668B6 /* PBXContainerItemProxy */;
+		};
+		8646634A22E707FF006668B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8646632122E707FD006668B6 /* wifi_test */;
+			targetProxy = 8646634922E707FF006668B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8646632B22E707FD006668B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8646632C22E707FD006668B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8646633322E707FE006668B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8646633422E707FE006668B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		864663A722E70A75006668B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864663A822E70A75006668B6 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		864663AB22E70A76006668B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864663AC22E70A76006668B6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		864663B522E70A77006668B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864663B622E70A77006668B6 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		864663B822E70A77006668B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864663B922E70A77006668B6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8646634F22E707FF006668B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8646635022E707FF006668B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8646635222E707FF006668B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD91DA13A6FF377883D5198E /* Pods-wifi_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA7BM9W35D;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = wifi_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switch.udbot.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8646635322E707FF006668B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA99C298BCCDA87BFA8E9170 /* Pods-wifi_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA7BM9W35D;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = wifi_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switch.udbot.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8646635522E707FF006668B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifi_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qevdo.wifi-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifi_test.app/wifi_test";
+			};
+			name = Debug;
+		};
+		8646635622E707FF006668B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifi_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qevdo.wifi-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifi_test.app/wifi_test";
+			};
+			name = Release;
+		};
+		8646635822E707FF006668B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifi_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qevdo.wifi-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifi_test;
+			};
+			name = Debug;
+		};
+		8646635922E707FF006668B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifi_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qevdo.wifi-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifi_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8646631D22E707FD006668B6 /* Build configuration list for PBXProject "wifi_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8646634F22E707FF006668B6 /* Debug */,
+				8646635022E707FF006668B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8646635122E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8646635222E707FF006668B6 /* Debug */,
+				8646635322E707FF006668B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8646635422E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8646635522E707FF006668B6 /* Debug */,
+				8646635622E707FF006668B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8646635722E707FF006668B6 /* Build configuration list for PBXNativeTarget "wifi_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8646635822E707FF006668B6 /* Debug */,
+				8646635922E707FF006668B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8646632E22E707FD006668B6 /* wifi_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8646632F22E707FD006668B6 /* wifi_test.xcdatamodel */,
+			);
+			currentVersion = 8646632F22E707FD006668B6 /* wifi_test.xcdatamodel */;
+			path = wifi_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8646631A22E707FD006668B6 /* Project object */;
+}

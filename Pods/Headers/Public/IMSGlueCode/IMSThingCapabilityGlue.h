@@ -1,0 +1,1 @@
+../../../../LocalPods/IMSGlueCode/IMSThingCapabilityGlue.h

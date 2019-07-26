@@ -1,0 +1,6 @@
+framework module IMSPackage {
+  umbrella header "IMSPackage.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../../AlicloudSGMain/SGMain/SGMain.framework/Headers/ISecurityGuardOpenAtlasEncrypt.h

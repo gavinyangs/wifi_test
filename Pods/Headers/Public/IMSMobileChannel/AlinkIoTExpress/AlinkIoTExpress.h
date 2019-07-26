@@ -1,0 +1,1 @@
+../../../../IMSMobileChannel/IMSMobileChannel/AlinkIoTExpress.framework/Headers/AlinkIoTExpress.h

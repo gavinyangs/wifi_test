@@ -1,0 +1,1 @@
+../../../../AlicloudALBBOpenAccount/openaccount/ALBBOpenAccountUI.framework/Headers/ALBBOpenAccountSetPwdViewDelegate.h

@@ -1,0 +1,6 @@
+framework module IMSRouter {
+  umbrella header "IMSRouter.h"
+
+  export *
+  module * { export * }
+}

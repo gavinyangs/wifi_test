@@ -1,0 +1,1 @@
+../../../../IMSThingCapability/IMSThingCapability/IMSThingCapability.framework/Headers/IMSThingActions.h
